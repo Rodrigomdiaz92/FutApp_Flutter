@@ -1,6 +1,8 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_application_2/home.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -39,10 +41,7 @@ Future<void> cargarDatos() async {
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text(
-            'Bienvenido',
-            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-          ),
+          child: HomeScreen(),
         ),
       ),
     );

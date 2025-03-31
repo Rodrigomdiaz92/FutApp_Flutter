@@ -13,6 +13,7 @@
         "https://example.com/cancha2.jpg",
         "https://example.com/cancha3.jpg"
       ],
+      "horariosDisponibles":[10,11,12],
       "numeroContacto": "+54 11 1234 5678",
       "correoContacto": "contacto@clubsanmartin.com",
       "opiniones": [
@@ -32,6 +33,7 @@
         "https://example.com/padel2.jpg",
         "https://example.com/padel3.jpg"
       ],
+      "horariosDisponibles":[10,11,12],
       "numeroContacto": "+54 11 8765 4321",
       "correoContacto": "info@padelcenter.com",
       "opiniones": [
