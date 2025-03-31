@@ -1,0 +1,43 @@
+{
+  "proveedores": [
+    {
+      "id": 1,
+      "nombreProveedor": "Club Deportivo San Martín",
+      "deportes": ["Fútbol", "Tenis"],
+      "ubicación": "Av. Libertador 1234, Buenos Aires",
+      "horarios": "10:00 AM - 11:00 PM",
+      "descripción": "Un club con más de 20 años de trayectoria en deportes.",
+      "imagenPerfil": "https://example.com/logo1.png",
+      "imagenesMuestra": [
+        "https://example.com/cancha1.jpg",
+        "https://example.com/cancha2.jpg",
+        "https://example.com/cancha3.jpg"
+      ],
+      "numeroContacto": "+54 11 1234 5678",
+      "correoContacto": "contacto@clubsanmartin.com",
+      "opiniones": [
+        "Excelente lugar para jugar fútbol y tenis, muy bien mantenido."
+      ]
+    },
+    {
+      "id": 2,
+      "nombreProveedor": "Pádel Center Buenos Aires",
+      "deportes": ["Pádel"],
+      "ubicación": "Calle Corrientes 5678, Buenos Aires",
+      "horarios": "9:00 AM - 10:00 PM",
+      "descripción": "Centro especializado en Pádel con canchas profesionales.",
+      "imagenPerfil": "https://example.com/logo2.png",
+      "imagenesMuestra": [
+        "https://example.com/padel1.jpg",
+        "https://example.com/padel2.jpg",
+        "https://example.com/padel3.jpg"
+      ],
+      "numeroContacto": "+54 11 8765 4321",
+      "correoContacto": "info@padelcenter.com",
+      "opiniones": [
+        "Las canchas son espectaculares, excelente atención."
+      ]
+    }
+    
+  ]
+}

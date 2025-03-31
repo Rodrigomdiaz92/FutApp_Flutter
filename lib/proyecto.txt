@@ -1,0 +1,23 @@
+Dado que tu aplicación es para la reserva de canchas deportivas, podrías necesitar los siguientes widgets modulares:
+
+1️⃣ 📍 Widget de Tarjeta de Cancha (CanchaCard)
+
+Muestra el nombre de la cancha, ubicación, tipo de deporte y precio.
+
+Se puede reutilizar en listas o detalles de canchas.
+
+2️⃣ 📆 Selector de Fecha y Hora (FechaHoraPicker)
+
+Permite elegir fecha y hora de la reserva con un DatePicker y TimePicker.
+
+3️⃣ 🛒 Botón de Reserva (BotonReserva)
+
+Un botón estilizado que activa la acción de reservar una cancha.
+
+4️⃣ 🔍 Barra de Búsqueda (BuscarCancha)
+
+Permite a los usuarios buscar canchas disponibles por nombre o ubicación.
+
+5️⃣ 🗂️ Lista de Canchas (ListaCanchas)
+
+Un ListView que usa CanchaCard para mostrar múltiples opciones de canchas.
