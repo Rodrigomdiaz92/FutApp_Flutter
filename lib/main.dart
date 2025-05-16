@@ -1,7 +1,11 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_application_2/home.dart';
+import 'package:flutter_application_2/SplashIntroScreen.dart';
+//import 'package:flutter_application_2/ConfirmacionReservaScreen.dart';
+//import 'package:flutter_application_2/SolicitudFormScreen.dart';
+//import 'package:flutter_application_2/home.dart';
+//import 'package:flutter_application_2/login.dart';
 
 
 void main() {
@@ -41,7 +45,11 @@ Future<void> cargarDatos() async {
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: HomeScreen(),
+          //child: HomeScreen(),
+          //child: LoginScreen(),
+          //child: SolicitudFormScreen(),
+          //child: ConfirmacionReservaScreen(),
+          child: SplashIntroScreen(),
         ),
       ),
     );
