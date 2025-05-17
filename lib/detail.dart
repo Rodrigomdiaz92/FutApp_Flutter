@@ -30,8 +30,9 @@ class CanchaCardScreen extends StatelessWidget {
               child: ElevatedButton(
                 onPressed: () {
                   //Navigator.pushNamed(context, SeleccionHorarioScreen(cancha: cancha));
+                  Navigator.pushNamed(context, '/solicitud');
                 },
-                child: Text("Seleccionar día y horario"),
+                child: Text("Consultar disponibilidad"),
               ),
             ),
           ],

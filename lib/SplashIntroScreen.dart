@@ -44,14 +44,14 @@ class _SplashIntroScreenState extends State<SplashIntroScreen> {
             if (_animacionTerminada) ...[
               ElevatedButton(
                 onPressed: () {
-                  Navigator.pushNamed(context, '/login');
+                  Navigator.pushReplacementNamed(context, '/login');
                 },
                 child: const Text('Iniciar sesión'),
               ),
               const SizedBox(height: 10),
               TextButton(
                 onPressed: () {
-                  Navigator.pushNamed(context, '/home');
+                  Navigator.pushReplacementNamed(context, '/home');
                 },
                 child: const Text('Omitir'),
               ),

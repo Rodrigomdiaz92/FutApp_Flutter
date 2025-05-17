@@ -1,11 +1,11 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_application_2/ConfirmacionReservaScreen.dart';
+import 'package:flutter_application_2/SolicitudFormScreen.dart';
 import 'package:flutter_application_2/SplashIntroScreen.dart';
-//import 'package:flutter_application_2/ConfirmacionReservaScreen.dart';
-//import 'package:flutter_application_2/SolicitudFormScreen.dart';
-//import 'package:flutter_application_2/home.dart';
-//import 'package:flutter_application_2/login.dart';
+import 'package:flutter_application_2/home.dart';
+import 'package:flutter_application_2/login.dart';
 
 
 void main() {
@@ -39,7 +39,7 @@ Future<void> cargarDatos() async {
     print("Error al cargar el archivo JSON: $e");
   }
 }
-
+/*
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -53,5 +53,21 @@ Future<void> cargarDatos() async {
         ),
       ),
     );
+  }*/
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'FutApp',
+      debugShowCheckedModeBanner: false,
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const SplashIntroScreen(),
+        '/home': (context) => HomeScreen(),
+        '/login': (context) => LoginScreen(),
+        '/solicitud': (context) => SolicitudFormScreen (),
+        '/confirmacion': (context) => ConfirmacionReservaScreen (),
+      },
+    );
   }
+
 }

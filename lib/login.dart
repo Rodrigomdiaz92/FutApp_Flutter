@@ -77,6 +77,7 @@ class LoginScreen extends StatelessWidget {
               onPressed: () {
                 // Acción futura: entrar sin loguearse
                 print("Login omitido");
+                Navigator.pushReplacementNamed(context, '/home');
               },
             ),
           ),

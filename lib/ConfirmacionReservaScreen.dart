@@ -25,7 +25,7 @@ class ConfirmacionReservaScreen extends StatelessWidget {
               ),
               const SizedBox(height: 30),
               const Text(
-                "¡Reserva confirmada!",
+                "¡Solicitud Enviada!",
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 20),

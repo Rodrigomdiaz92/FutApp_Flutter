@@ -119,7 +119,11 @@ class SolicitudFormScreenState extends State<SolicitudFormScreen> {
               ),
               SizedBox(height: 24),
               ElevatedButton(
-                onPressed: _enviarFormulario,
+                onPressed: //_enviarFormulario,
+                () {
+                  //Navigator.pushNamed(context, SeleccionHorarioScreen(cancha: cancha));
+                  Navigator.pushNamed(context, '/confirmacion');
+                },
                 child: Text('Enviar solicitud'),
               ),
             ],
